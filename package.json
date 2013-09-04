@@ -1,0 +1,41 @@
+{
+  "name": "crtrdg-player",
+  "version": "0.0.1",
+  "description": "**example** player module for crtrdg. try it out to learn how to implement your own player module. this one is also used for simple examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy test.js:bundle.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sethvincent/crtrdg-player.git"
+  },
+  "keywords": [
+    "games",
+    "html",
+    "canvas",
+    "animation",
+    "requestAnimationFrame",
+    "game library",
+    "entity",
+    "crtrdg"
+  ],
+  "author": {
+    "name": "Seth Vincent",
+    "email": "sethvincent@gmail.com",
+    "url": "http://sethvincent.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "crtrdg-gameloop": "*",
+    "crtrdg-keyboard": "*"
+  },
+  "devDependencies": {
+    "crtrdg-gameloop": "*",
+    "crtrdg-keyboard": "*"
+  },
+  "dependencies": {
+    "inherits": "~2.0.1",
+    "crtrdg-entity": "0.0.8"
+  }
+}
